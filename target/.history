@@ -1,0 +1,12 @@
+run
+sbt
+run
+:q
+cd ..
+run
+exit:
+e
+ｓｂｔ　ｒｕｎ
+ｒｕｎ
+sbt run
+run

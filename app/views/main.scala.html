@@ -1,0 +1,17 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="/">index</a></li>
+            <li><a href="/login">login</a></li>
+            <li><a href="/register">register</a></li>
+        </ul>
+        @content
+    </body>
+</html>

@@ -1,0 +1,14 @@
+@(loginForm: Form[(String,String)])
+@import helper._
+
+@main("Todo list") {
+<h2>Login</h2>
+
+@form(routes.Application.login) {
+
+@inputText(loginForm("email"))
+@inputText(loginForm("password"))
+
+<input type="submit" value="Login">
+}
+}
